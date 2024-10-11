@@ -1,0 +1,73 @@
+/* Container for order summary */
+.section-container {
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+}
+
+/* Title styling */
+.section-container h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+.section-container p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Grand total styling */
+.section-container h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+}
+
+/* Button container for aligning buttons side by side */
+.proceed, .clear {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Clear cart button styling */
+.clear {
+    background-color: #530064;
+    color: white;
+    margin-right: 80px;  /* Adjusted space between buttons */
+}
+
+.clear:hover {
+    background-color: #F3B9FF;
+    color: #530064;
+    border: 2px solid #530064;
+}
+
+/* Proceed to checkout button styling */
+.proceed {
+    background-color: #530064;
+    color: white;
+}
+
+.proceed:hover {
+    background-color: #F3B9FF;
+    color: #530064;
+    border: 2px solid #530064;
+}
+
+/* Align the buttons side by side */
+.proceed, .clear {
+    margin-top: 20px; /* Margin for separation from content */
+}
+
+/* Add some icon styling for the buttons (if applicable) */
+.proceed i, .clear i {
+    margin-left: 10px; /* Spacing between text and icon */
+}

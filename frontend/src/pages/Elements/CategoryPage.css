@@ -1,0 +1,21 @@
+.section__container { /* Adjust max width */
+    margin: auto;
+    padding: 4rem 1rem; /* Adjust padding as needed */
+    background-color: #f3b9ff; /* Background color similar to the image */
+    text-align: center; /* Center the content */
+  }
+  
+  .section__header {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #333; /* Darker color for the header */
+    margin-bottom: 1rem;
+  }
+  
+  .section__subheader {
+    font-size: 1.125rem; /* Slightly smaller than header */
+    color: #666; /* Lighter text color */
+    max-width: 600px;
+    margin: auto;
+  }
+  

@@ -1,0 +1,46 @@
+.single-product-container {
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  gap: 40px; /* Space between the image and the details */
+  padding: 40px;
+}
+
+.product-image {
+  flex: 1; /* Make image take up some space but let details be flexible */
+}
+
+.product-image img {
+  max-width: 100%; /* Ensure the image scales appropriately */
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-details {
+  flex: 2; /* Give the details more space than the image */
+  display: flex;
+  gap: 10px;
+  flex-direction: column; /* Ensure details are stacked vertically */
+}
+
+.product-details h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.product-details p {
+  margin: 10px 0;
+}
+
+.cart_btn{
+  height: 40px;
+  width: 120px;
+  background-color: #530064;
+  border-radius: 5px;
+  border:2px solid #530064;
+  color: #ffffff;
+}
+
+.section_container { /* Adjust max width */
+  margin: auto;
+  padding: 40px; /* Adjust padding as needed */
+}

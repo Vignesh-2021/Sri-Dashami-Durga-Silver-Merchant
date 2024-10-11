@@ -1,0 +1,11 @@
+.product_rating {
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    color: goldenrod; /* Color of the stars */
+  }
+  
+  .product__rating .ri-star-fill,
+  .product__rating .ri-star-line {
+    font-size: 1rem; /* Adjust the size of the stars */
+  }
+  

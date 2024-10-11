@@ -1,0 +1,72 @@
+/* Styles for the Login Page */
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .login_section {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    text-align: center;
+  }
+  
+  .login_section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .login_form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login_form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .login_email, .login_pass {
+    font-size: 16px;
+  }
+  
+  .login_btn {
+    background-color: #530064;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login_btn:hover {
+    background-color: #530064;
+  }
+  
+  .login_txt {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .login_txt a {
+    color: #530064;
+    text-decoration: none;
+  }
+  
+  .login_txt a:hover {
+    text-decoration: underline;
+  }
+  

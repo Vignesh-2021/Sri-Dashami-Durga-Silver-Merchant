@@ -1,0 +1,93 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Adjust column count based on screen size */
+  gap: 20px; /* Spacing between product cards */
+  padding: 20px;
+}
+
+.product__card {
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+  border: 1px solid #530064;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.product__card:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 1px 4px #530064;
+}
+
+.product__card img {
+  width: 100%; /* Ensure the image takes up the full width of the card */
+  height: 250px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensures the image covers the area and maintains aspect ratio */
+  transition: transform 0.3s ease-in-out;
+}
+
+.relative {
+  position: relative;
+}
+
+.cart__icon {
+  position: absolute;
+  top: 10px; /* Adjust top positioning */
+  right: 10px; /* Adjust right positioning */
+  background-color: #530064; /* Set violet background color */
+  border-radius: 50%; /* Rounded icon */
+  border: 2px solid #530064; /* Violet border */
+  width: 40px; /* Adjust size of the button */
+  height: 40px; /* Adjust size of the button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+  z-index: 2; /* Make sure it's above the image */
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.cart__icon i {
+  font-size: 20px; /* Adjust icon size */
+  color: white; /* White color for the cart icon */
+}
+
+.cart__icon:hover {
+  background-color: #F3B9FF; /* Lighter violet on hover */
+  color: #530064;
+  transform: scale(1.01); /* Slight scale-up effect on hover */
+}
+
+/* Product details */
+.product-details {
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Ensure the details are displayed in a column (line-by-line) */
+  align-items: flex-start; /* Align all details to the start of the container */
+}
+
+.product-name,
+.product-weight,
+.product-price,
+.product-rating {
+  margin-bottom: 10px; /* Add spacing between each detail */
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-weight,
+.product-price {
+  font-size: 14px;
+}
+
+.product-price .old-price {
+  color: #888; /* Style the old price differently */
+  margin-left: 5px;
+}
+
+.product-rating {
+  font-size: 14px;
+}
